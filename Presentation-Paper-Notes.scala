@@ -22,6 +22,8 @@ Problems Faced:
 		makes all sentences possible starting with same word
 		this makes all sentences be almost the same - exponential blowup
 		- Dealt with this by creating a method that makes random decisions navigating grammar tree
+	Doesn't differenciate between words like she / her / herself, which are used in different contexts
+	Doesn't differenciate between all/ a as determiners
 
 Where we are trying to improve:
 	Classifying the words more specially in pre-processing
@@ -35,5 +37,4 @@ Things to do to the program:
 	Split adverbs -ly and else
 	Split nouns a/an
 	Space before comma
-	Capitolize first letter of each line
 
