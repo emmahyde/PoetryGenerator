@@ -6,7 +6,7 @@
 
 In order to get the poetry generator to run, you need Python 3.
 Using bash shell with Python 3, navigate to the download directory and enter `python3 generator.py`. 
-This will generate a poem from the ASCII input (default `input.txt` is Electric Kool Aid Acid Test, found in the same directory. This can be changed to any book-length input).
+This will generate a poem from the ASCII input (default `input.txt` is *Electric Kool Aid Acid Test*, found in the same directory. This can be changed to any book-length input).
 This task takes between 15 seconds and 10 minutes depending on your CPU power and the length of the input.
 
 **PLEASE NOTE:** the generator cannot handle non-ASCII symbols or pound signs. Please replace all of these with spaces before attempting to use it.
