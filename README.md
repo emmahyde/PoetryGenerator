@@ -13,7 +13,7 @@ PLEASE NOTE: the generator cannot handle non-ASCII symbols or pound signs. Pleas
 
 ### Use
 
-The generator contains a main method that calls file = open('input.txt', 'r+'). This by default opens the program named "input.txt". If you would like to use various inputs named different things, you would modify this line of the generator. It is found in 'generator.py' on line 349.
+The generator contains a main method that calls `file = open('input.txt', 'r+')`. This by default opens the program named `input.txt`. If you would like to use various inputs named different things, you would modify this line of the generator. It is found in `generator.py` on line 349.
 
 ### Flask Server Implementation
 
