@@ -19,7 +19,7 @@ The generator contains a main method that calls `file = open('input.txt', 'r+')`
 
 Using the `app.py` file, you can modify the generator to be controlled by a `HTTP GET` and `POST` method.
 This will require Flask to be fully installed on your machine or server.
-The `app.py` should be run as the main method, which will imports and calls the `generator.py `functions themselves. 
+The `app.py` should be run as the main method, which will imports and calls the `generator.py` functions themselves. 
 The flask server utilizes the `templates` folder in order to render the HTML, and then returns the poem as an HTML output with the name of the input file.
 In order to deploy this application to a server, [use a coded flask deployment](http://flask.pocoo.org/docs/0.10/deploying/). It is possible to host it using another flask hosting option (Google apps, etc.), but some deployment methods (e.g. Heroku) have a timeout limit and are not able to host this application as the return method takes quite long to return.
 
