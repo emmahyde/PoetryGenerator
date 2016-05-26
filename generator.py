@@ -113,7 +113,7 @@ class Grammar:
             VPS -> VPS 'and' S
             VPS -> 'VBD' 'JJR' 'than' 'a' 'NN'
             VPS -> 'VBD' 'EX'
-            VPS -> SM 'JJ' | 'SM' 'VB' INP
+            VPS -> SM 'JJ' | SM 'VB' INP
 
             NPO -> 'a' 'NN' 'IN' 'NNP'
             NPO -> 'the' 'NN' 'IN' 'the' 'JJ' 'NNP'
